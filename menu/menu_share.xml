@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <item android:title="Share....."
+        />
+    <item
+        android:id="@+id/share_email"
+        android:icon="@drawable/email"
+        android:orderInCategory="100"
+        android:title="@string/email"
+
+
+
+        />
+    <item
+        android:id="@+id/share_bluetooth"
+        android:icon="@drawable/bluetooth"
+        android:orderInCategory="100"
+        android:title="@string/bluetooth"
+
+        />
+    <item
+        android:id="@+id/share_whatsapp"
+        android:icon="@drawable/whatsapp"
+        android:orderInCategory="100"
+        android:title="@string/whatsapp"
+
+        />
+    <item
+        android:id="@+id/fb"
+        android:icon="@drawable/fb"
+        android:orderInCategory="100"
+        android:title="@string/fb"
+
+        />
+    <item
+        android:id="@+id/twitter"
+        android:icon="@drawable/twitter"
+        android:orderInCategory="100"
+        android:title="@string/twitter"
+
+        />
+    <item
+        android:id="@+id/google"
+        android:icon="@drawable/google"
+        android:orderInCategory="100"
+        android:title="@string/google"
+
+        />
+</menu>
